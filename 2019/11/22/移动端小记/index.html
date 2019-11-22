@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>移动端小记 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="视觉窗口：viewport，是移动端特有的，这是一个虚拟的区域，承载网页。 承载关系浏览器—–&amp;gt;viewport———&amp;gt;网页 适配要求1.网页宽度必须和浏览器保持一致 2.默认显示的缩放比例和PC端保持（缩放比例1.0） 3.不允许用户自行缩放网页 以上为国际上通用的适配方案，标准的移动端适配方案 适配设置如果任何设置都没有，默认走的就是viewport的默认设置 去设置新的viewp">
+<meta property="og:type" content="article">
+<meta property="og:title" content="移动端小记">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;22&#x2F;%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B0%8F%E8%AE%B0&#x2F;index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="视觉窗口：viewport，是移动端特有的，这是一个虚拟的区域，承载网页。 承载关系浏览器—–&amp;gt;viewport———&amp;gt;网页 适配要求1.网页宽度必须和浏览器保持一致 2.默认显示的缩放比例和PC端保持（缩放比例1.0） 3.不允许用户自行缩放网页 以上为国际上通用的适配方案，标准的移动端适配方案 适配设置如果任何设置都没有，默认走的就是viewport的默认设置 去设置新的viewp">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-16T14:29:18.330Z">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-移动端小记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/11/22/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B0%8F%E8%AE%B0/" class="article-date">
+  <time datetime="2019-11-22T13:29:17.301Z" itemprop="datePublished">2019-11-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      移动端小记
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="视觉窗口："><a href="#视觉窗口：" class="headerlink" title="视觉窗口："></a>视觉窗口：</h4><p>viewport，是移动端特有的，这是一个虚拟的区域，承载网页。</p>
+<h4 id="承载关系"><a href="#承载关系" class="headerlink" title="承载关系"></a>承载关系</h4><p>浏览器—–&gt;viewport———&gt;网页</p>
+<h4 id="适配要求"><a href="#适配要求" class="headerlink" title="适配要求"></a>适配要求</h4><p>1.网页宽度必须和浏览器保持一致</p>
+<p>2.默认显示的缩放比例和PC端保持（缩放比例1.0）</p>
+<p>3.不允许用户自行缩放网页</p>
+<p>以上为国际上通用的适配方案，标准的移动端适配方案</p>
+<h4 id="适配设置"><a href="#适配设置" class="headerlink" title="适配设置"></a>适配设置</h4><p>如果任何设置都没有，默认走的就是viewport的默认设置</p>
+<p>去设置新的viewport设置，达到设置要求。</p>
+<meta name="viewport">  设置视口的标签，在head里面并且应该紧跟着编码设置
+
+<h4 id="viewport功能"><a href="#viewport功能" class="headerlink" title="viewport功能"></a>viewport功能</h4><pre><code>* 1. width  可以设置宽度   (device-width 当前设备的宽度)
+* 2. height  可以设置高度
+* 3. initial-scale  可以设置默认的缩放比例
+* 4. user-scalable  可以设置是否允许用户自行缩放
+* 5. maximum-scale  可以设置最大缩放比例
+* 6. minimum-scale  可以设置最小缩放比例
+* 在&lt;meta name=&quot;viewport&quot; content=&quot;&quot;&gt;  content=&quot;&quot; 使用以上参数
+*
+* 标准的适配方案：content=&quot;width=device-width,initial-scale=1.0,user-scalable=0&quot;
+快捷键：meta:vp  + tab </code></pre><h4 id="非主流的适配方案："><a href="#非主流的适配方案：" class="headerlink" title="非主流的适配方案："></a>非主流的适配方案：</h4><p>​        1.页面的真实尺寸会比在设备上的尺寸要大几倍<br>​        2.假设设备是iphone4 -&gt; 320px -&gt; 网页尺寸 640px<br>​        3.缩放操作，有2倍，有3倍，和屏幕像素比有关系<br>​        4.什么是屏幕像素（物理像素）  px（页面的尺寸单位）<br>​        5.物理像素是设备显示屏的最小可视颗粒的大小</p>
+<pre><code>在屏幕像素比高的设备（一个px宽的屏幕能放几个物理像素）  图片（非矢量）会显示模糊
+提高网页的清晰度，根据屏幕的像素比来缩放网页
+但是这样的适配方案成本非常高
+一般的企业开发中使用的还是标准设备</code></pre><!-- 
+        1.可以使用jquery，但是不建议
+        2.jquery  做了很多桌面浏览器的兼容问题，特别是IE，但是移动端没有IE浏览器
+        3.主流的浏览器：谷歌，火狐（2016年停止了维护和更新） safair浏览器  百度   360  qq
+        4.特点：内核基本上都是  webkit  或者blink   兼容 -webkit
+        5.使用h5的api  或者使用一个 叫做 zepto.js的库（基于高版本浏览器开发）
+    -->
+
+<h4 id="触摸事件的相关知识"><a href="#触摸事件的相关知识" class="headerlink" title="触摸事件的相关知识"></a>触摸事件的相关知识</h4><h5 id="解释touch"><a href="#解释touch" class="headerlink" title="解释touch"></a>解释touch</h5><p>​        解释touch<br>​        1.touch是移动端的触摸事件，而且是一组事件<br>​        2.touchstart        当手指触摸屏幕的时候触发<br>​        3.touchmove         当手指在屏幕来回的滑动时候触发<br>​        4.touchend          当手指离开屏幕的时候触发<br>​        5.touchcancel       当被迫终止滑动的时候触发（来电，弹消息）<br>​        6.利用touch相关事件实现移动端常见滑动效果和移动端常见的手势事件</p>
+<h5 id="使用touch"><a href="#使用touch" class="headerlink" title="使用touch"></a>使用touch</h5><p>​        使用touch<br>​        1.绑定事件  box.addEventListener(‘touchstart’, function () {});<br>​        2.事件对象的分析<br>​        名字：TouchList —— 触摸点（一个手指触摸就是一个触摸点，和屏幕的接触点的个数）的集合<br>​        changedTouches    改变后的触摸点的集合<br>​        targetTouches     当前元素的触摸点集合<br>​        touches           页面上所有触摸点集合<br>​        3.触摸点集合在每个事件触发的时候会不会记录触摸<br>​        changedTouches   每个事件都会记录<br>​        targetTouches, touches  在离开屏幕的时候无法记录触摸点<br>​        4.分析滑动实现的原理：<br>​            4.1 就是让触摸的元素随着手指的滑动做位置的改变<br>​            4.2 位置的改变：需要当前手指的坐标<br>​            4.3 在每一个触摸点中都会记录当前触摸点的坐标  e.touches[0] — 第一个触摸点<br>​            4.4 clientX  clientY  基于浏览器窗口（视口）<br>​            4.5 pageX  pageY      基于页面（视口）<br>​            4.6 screenX  screenY  基于屏幕</p>
+<h4 id="移动端下拉和左右拉动"><a href="#移动端下拉和左右拉动" class="headerlink" title="移动端下拉和左右拉动"></a>移动端下拉和左右拉动</h4><p>iscroll.js插件</p>
+<p>/**<br>     * 区域滚动效果<br>     * 条件：一个容器装着一个容器</p>
+<pre><code>* 找到大容器
+
+* 子容器大于父容器
+
+   new IScroll(document.querySelector(&apos;.jd_cateLeft&apos;),{
+           scrollX: false,
+           scrollY: true
+       });</code></pre><h4 id="两栏自适应"><a href="#两栏自适应" class="headerlink" title="两栏自适应"></a>两栏自适应</h4><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .box1 {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background: pink;
+        }
+        .box2 {
+            /*让这个元素绝对绝缘  bfc*/
+            /*不让其他浮动元素影响自己*/
+            /*不让自己的浮动去影响别的元素*/
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.小技巧 -->
+    <!-- 2.文本环绕 -->
+    <div class="box1"></div>
+    <div class="box2">
+        内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+    </div>
+</body>
+</html>
+
+<h4 id="normalize-amp-reset区别"><a href="#normalize-amp-reset区别" class="headerlink" title="normalize&amp;reset区别"></a>normalize&amp;reset区别</h4><p>共同点：都是重置样式，增强浏览器的变现一致性</p>
+<p>不同点：</p>
+<p>例子：ul</p>
+<p>reset.css    list-style:none;    —- 因为需求</p>
+<p>normalize.css     不会重置ul样式  —–本身已经在每个浏览器表现一致的元素</p>
+<p>总结：都是增强浏览器的表现一致性，但是normalize不会重置已经一致的元素</p>
+<h5 id="设备大小"><a href="#设备大小" class="headerlink" title="设备大小"></a>设备大小</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1、大屏设备   lg:大屏设备以上（包括大屏设备）生效</span><br><span class="line">2、中屏设备   md:中屏设备以上（包括中屏设备）生效</span><br><span class="line">3、小屏设备   sm:小屏设备以上（包括小屏设备）生效</span><br><span class="line">4、超小屏设备   xs:所有设备生效</span><br></pre></td></tr></table></figure>
+
+<h5 id="jquery获取宽度的几种方法"><a href="#jquery获取宽度的几种方法" class="headerlink" title="jquery获取宽度的几种方法"></a>jquery获取宽度的几种方法</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">/** </span><br><span class="line">* width()  内容 </span><br><span class="line">* innerWidth()  内容+内边框 </span><br><span class="line">* outerWidth()  内容+内边框+边框 </span><br><span class="line">* outerWidth(true)  内容+内边框+边框+外边框 </span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
+
+<h5 id="less在浏览器端直接使用"><a href="#less在浏览器端直接使用" class="headerlink" title="less在浏览器端直接使用"></a>less在浏览器端直接使用</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">type</span>=<span class="string">"text/less"</span> <span class="attr">href</span>=<span class="string">"../less/test.less"</span>&gt;</span>    </span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"../lib/less/less.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>    <span class="tag">&lt;<span class="name">script</span>&gt;</span>less.watch();<span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span>&gt;</span>在浏览器端使用less<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>1.less无法在浏览器端直接使用<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>2.浏览器不识别<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>3.必须解析成css代码<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>4.通过less解析插件（javascript）<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>5.引入less文件需要加上 type="text/less"<span class="tag">&lt;/<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">p</span>&gt;</span>6.less.watch();不刷新就可以预览样式<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>7.以http形式打开网页预览<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="tap介绍"><a href="#tap介绍" class="headerlink" title="tap介绍"></a>tap介绍</h5><p>tap是zepto绑定的事件，和click不同</p>
+<p>tap绑定了touchstart, touchmove, window.touchend</p>
+<h5 id="tap事件击穿"><a href="#tap事件击穿" class="headerlink" title="tap事件击穿"></a>tap事件击穿</h5><p>消息框点击的时候会消失，正好和点击的按钮在一起的时候就会出现击穿现象。</p>
+<p>解决方法：使用setTimeout()方法</p>
+<h5 id="JSON含有兼容问题"><a href="#JSON含有兼容问题" class="headerlink" title="JSON含有兼容问题"></a>JSON含有兼容问题</h5><p>json IE6,7不兼容</p>
+<p>解决方法：使用json2插件</p>
+<h5 id="from表单数据的数列化–serialize"><a href="#from表单数据的数列化–serialize" class="headerlink" title="from表单数据的数列化–serialize"></a>from表单数据的数列化–serialize</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var data = $('form').serialize();</span><br><span class="line">var data = $('form').serializeArray();</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/11/22/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B0%8F%E8%AE%B0/" data-id="ck3a6yuh1000254vj9fxtarq2" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2019/11/22/Node.js%E6%98%AF%E4%BB%80%E4%B9%88/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Node.js是什么</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/11/22/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B0%8F%E8%AE%B0/">移动端小记</a>
+          </li>
+        
+          <li>
+            <a href="/2019/11/22/Node.js%E6%98%AF%E4%BB%80%E4%B9%88/">Node.js是什么</a>
+          </li>
+        
+          <li>
+            <a href="/2019/11/22/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
